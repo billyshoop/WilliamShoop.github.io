@@ -1,0 +1,12 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.468159,40.591196]},"properties":{"City":"Allentown","AverageInc":38738}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.374528,40.512542]},"properties":{"City":"Altoona","AverageInc":30539}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.033102,42.054745]},"properties":{"City":"Erie","AverageInc":42251}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.787788,40.367549]},"properties":{"City":"Harrisburg","AverageInc":55439}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.86366,40.434406]},"properties":{"City":"Pittsburgh","AverageInc":30668}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.119198,40.034147]},"properties":{"City":"Philadelphia","AverageInc":31588}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.938371,40.356826]},"properties":{"City":"Reading","AverageInc":24891}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.801751,41.226653]},"properties":{"City":"Wilkes Barre","AverageInc":29129}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.331507,40.03112]},"properties":{"City":"Lancaster","AverageInc":38086}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.969902,40.290673]},"properties":{"City":"Johnstown","AverageInc":37810}}
+]}

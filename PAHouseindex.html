@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>William Shoop | Pennsylvania Housing Map</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/PASHousestyle.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class=”container”>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+						<span class="menu"> Menu</span>
+					</button> <!-- Hamburger button for smaller devices -->
+					<a class="navbar-brand" href="../Directory/index.html">William Shoop</a>
+            </div>
+           
+        <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+		      <ul class="nav navbar-nav">  <!-- Unordered list for links on navbar -->
+		        <li><a href="about.html">About</a></li>
+						<li><a href="resume.html">Resume</a></li>
+		      </ul>
+		    </div> <!-- end .navbar-collapse -->
+		  </div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+		<!--put your initial page content here-->
+		<div class="titlePage">
+            <h1>Housing Data for Pennsylvania Counties</h1>
+        </div>
+        <div class="footer">PA city income data derived from: http://zipatlas.com/us/pa/city-comparison/median-household-income.htm <br>
+        PA Housing Data: https://pasdc.hbg.psu.edu/Data/PAStats/tabid/1014/Default.aspx</div>
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8" type="text/javascript"></script>
+        <script src="http://d3js.org/topojson.v1.min.js" type="text/javascript"></script>
+        <script src="lib/topojson/topojson.js" type="text/javascript"></script>
+        <script type="text/javascript" src="lib/d3-queue/d3-queue.min.js"></script>
+        <script type="text/javascript" src="lib/d3/d3.js"></script>
+        <script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/PAmain.js"></script>
+       
+	</body>
+</html>

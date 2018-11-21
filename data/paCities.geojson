@@ -1,0 +1,12 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.468159,40.591196]},"properties":{"City":"Allentown","Lat":40.591196,"Long":-75.468159,"AverageInc":38738}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.374528,40.512542]},"properties":{"City":"Altoona","Lat":40.512542,"Long":-78.374528,"AverageInc":30539}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.033102,42.054745]},"properties":{"City":"Erie","Lat":42.054745,"Long":-80.033102,"AverageInc":42251}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.787788,40.367549]},"properties":{"City":"Harrisburg","Lat":40.367549,"Long":-76.787788,"AverageInc":55439}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.86366,40.434406]},"properties":{"City":"Pittsburgh","Lat":40.434406,"Long":-79.86366,"AverageInc":30668}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.119198,40.034147]},"properties":{"City":"Philadelphia","Lat":40.034147,"Long":-75.119198,"AverageInc":31588}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.938371,40.356826]},"properties":{"City":"Reading","Lat":40.356826,"Long":-75.938371,"AverageInc":24891}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.801751,41.226653]},"properties":{"City":"Wilkes Barre","Lat":41.226653,"Long":-75.801751,"AverageInc":29129}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.331507,40.03112]},"properties":{"City":"Lancaster","Lat":40.03112,"Long":-76.331507,"AverageInc":38086}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.969902,40.290673]},"properties":{"City":"Johnstown","Lat":40.290673,"Long":-78.969902,"AverageInc":37810}}
+]}

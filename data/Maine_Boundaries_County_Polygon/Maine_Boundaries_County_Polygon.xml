@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>20140124</pubdate>
+<title>Maine_Boundaries_County</title>
+<edition>v2</edition>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Maine GIS</sername>
+<issue>SDE server; Internet Data Catalog</issue>
+</serinfo>
+<onlink>https://hub.arcgis.com/datasets?q=maine%20geolibrary</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>CNTY24 contains state and county boundaries for Maine, mapped at 1:24,000 scale. The dataset has polygon topology and was created in Arc/Info from METWP24 by a select on arcs coded TYPE = state, county, and coastline.</abstract>
+<purpose>The dataset provides a ready reference for county boundaries, names and county codes at 1:24,000 scale. Not for use at scales larger than 1:24,000. Data at this scale is suitable for detailed studies and local planning.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19480101</begdate>
+<enddate>20140124</enddate>
+</rngdates>
+</timeinfo>
+<current>source dates</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-71.166757</westbc>
+<eastbc>-66.78175</eastbc>
+<northbc>47.460074</northbc>
+<southbc>42.909625</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Maine GIS Thesaurus-Theme</themekt>
+<themekey>boundaries</themekey>
+<themekey>counties</themekey>
+<themekey>government</themekey>
+<themekey>fips</themekey>
+<themekey>county codes</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>boundaries</themekey>
+<themekey>planningCadastre</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>boundaries</themekey>
+<themekey>planningCadastre</themekey>
+</theme>
+<place>
+<placekt>Maine GIS Thesaurus-Place</placekt>
+<placekey>Washington County</placekey>
+<placekey>United States</placekey>
+<placekey>Cumberland County</placekey>
+<placekey>Maine</placekey>
+<placekey>Hancock County</placekey>
+<placekey>New England</placekey>
+<placekey>Penobscot County</placekey>
+<placekey>Kennebec County</placekey>
+<placekey>Knox County</placekey>
+<placekey>Aroostook County</placekey>
+<placekey>York County</placekey>
+<placekey>Sagadahoc County</placekey>
+<placekey>Piscataquis County</placekey>
+<placekey>Oxford County</placekey>
+<placekey>Lincoln County</placekey>
+<placekey>Androscoggin County</placekey>
+<placekey>Somerset County</placekey>
+<placekey>Waldo County</placekey>
+<placekey>Franklin County</placekey>
+</place>
+<stratum>
+<stratkt>GCMD Parameter Keyword</stratkt>
+<stratkey>human dimensions</stratkey>
+</stratum>
+</keywords>
+<accconst>None</accconst>
+<useconst>Users must assume responsibility in determining the usability of this data for their purposes. Digital maps retain the accuracy of their source materials. The best use of data mapped at scales of 1:500,000 and 1:250,000 is in statewide planning and studies; at 1:100,000 in regional planning and studies; at 1:62,500 and 1:24,000 in detailed studies and local planning; and at 1:12,000 and 1:5,000 or larger scales in parcel level studies and detailed local planning. In the use of Maine GIS data, please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the correct copy of both data and metadata from the Maine GIS Data Catalog. Updates, corrections, and feedback, incorporated in the Maine GIS database are made in accordance with "Data Standards for Maine Geographic Information Systems", 2002, and coordinated by MEGIS.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of Geographic Information Systems</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #145</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04333</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntemail>OIT.Customer-Support@maine.gov</cntemail>
+<hours>9 am to 5 pm EST</hours>
+<cntinst>Monday through Friday</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>Credit should always be given to the data source and/or originator when the data is transferred or printed.</datacred>
+<native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5713</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The attributes have been carefully examined for accuracy based on existing source material and limitations of scale.</attraccr>
+</attracc>
+<logic>Spatial topology meets "Data Standards for Maine Geographic Information Systems", June 2002, no overshoots, slivers, unresolved line segment intersections, open or unlabelled polygons.</logic>
+<complete>Data set is complete.</complete>
+<posacc>
+<horizpa>
+<horizpar>Approximate horizontal accuracy is 12 meters, assuming source data meets National Map Accuracy Standards. Horizontal positional accuracy for the digital data has been tested by on screen visual comparison to the source.</horizpar>
+<qhorizpa>
+<horizpav>12</horizpav>
+<horizpae>Data was derived from digital data that meets National Map Accuracy Standards for 1:24,000 scale.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>(24k) USGS 1:24,000 scale quadrangles</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19480101</begdate>
+</rngdates>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>(24k) USGS 1:24,000 scale quadrangles</srccitea>
+<srccontr>USGS 1:24,000 scale quadrangles represent both natural (contours, coast, ponds, rivers, streams) and manmade (boundaries, roads and other transportation) features of the land. The maps are compiled to National Map Accuracy Standards (+or- 12 meters, or 40 feet, for 1::24,000). Standard 7.5x7.5 minute quadrangles cover geographic areas of 49 to 71 square miles. 1 inch at map scale represents 2000 feet. Publication dates are unique to each quadrangle. USGS quadrangles are available in provisional, full publication and photorevised formats. Map revision is costly and budgetary constraints have limited the publication of revised maps. Over 700 USGS 1::24000 scale quadrangles have been scanned and vectorized to create a set of basemaps for Maine GIS. Where USGS quadrangles are the source of Maine GIS maps, specific information on quadrangle publication dates (which range from 1948 to present) is available and quadrangle (tile) names can be derived by overlay or intersect with the MEGIS statewide tile index, INDEX24.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>(PHOTOREV)USGS 1:24000 scale photorevised quadrangles</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19780101</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>(PHOTOREV)USGS 1:24000 scale photorevised quadrangles</srccitea>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>19941228</pubdate>
+<title>(FIPS55-3) CODES FOR NAMED POPULATED PLACES, PRIMARY COUNTY DIVISIONS, AND OTHER LOCATIONAL ENTITIES OF THE UNITED STATES</title>
+</citeinfo>
+</srccite>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19941228</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>(FIPS55-3) CODES FOR NAMED POPULATED PLACES, PRIMARY COUNTY DIVISIONS, AND OTHER LOCATIONAL ENTITIES OF THE UNITED STATES</srccitea>
+<srccontr>Federal Information Processing Standard (FIPS) 55-3 provides codes for named populated places, primary county divisions (such as townships and census county divisions), American Indian and Alaska Native areas, and several kinds of facilities. It also provides comparable codes for counties and equivalent legal and statistical entities.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>20070701</pubdate>
+<title>metwp24</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>onLine</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19480101</begdate>
+<enddate>20050822</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>source dates</srccurr>
+</srctime>
+<srccitea>metwp24</srccitea>
+<srccontr>USGS24k arcs were "put" from METWP24 to complete the Knox county line in Penobscot Bay, and the state line east and south of Washington county.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>19710513</pubdate>
+<title>(GEOCODE) Standard Geographic Codes for Maine Minor Civil Divisions</title>
+</citeinfo>
+</srccite>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19710701</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>(GEOCODE) Standard Geographic Codes for Maine Minor Civil Divisions</srccitea>
+<srccontr>In 1971, all Maine state agencies were requested to implement these five digit geocodes, in agency information systems, to build a base of data for Maine's Minor Civil Divisions (MCDs) and to promote data sharing. Data coded by MCD may subsequently be summarized by any other type of region, administrative district, natural area, etc. The first two digits of the geocode represent the federal (FIPS) code for Maine counties, the remaining three digits uniquely identify each of Maine's MCDs and Reservations. As an information service to state agencies and the public, geocodes for Maine, are now maintained, updated and made available for download, in comma delimited text and .dbf format, through the Maine Office of Geographic Information Systems.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>19950101</pubdate>
+<title>coast</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>onLine</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19480101</begdate>
+<enddate>19990101</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>source dates</srccurr>
+</srctime>
+<srccitea>coast</srccitea>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>(100k) USGS 1:100000 scale quadrangles</title>
+</citeinfo>
+</srccite>
+<srcscale>100000</srcscale>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19840101</begdate>
+<enddate>19861231</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>(100k) USGS 1:100000 scale quadrangles</srccitea>
+</srcinfo>
+<procstep>
+<procdesc>County boundaries were updated to reflect the following town boundary changes: Vienna/Chesterville - Town and County boundary changed per report from town official - FIRM maps and Patten Corp Plan #979 provided to verify change. Leeds/Wayne - Town and County boundary corrected with survey from Leeds.</procdesc>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of GIS</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #174</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04955</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntfax>207-287-3842</cntfax>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>CNTY24 version 1, contains state and county boundaries for Maine. The coverage has polygon topology and was created in Arc/Info from METWP24 by a select on arcs coded TYPE = state, county, and coastline. Polygons in the coverage were labeled with COUNTY, CNTYCODE, TAG, LAND, ISLAND. Arcs in the coverage were coded for SOURCE, TYPE and LAND. Coverage attributes were carefully examined for accuracy based on existing source material and limitations of scale. LABEL ERRORS and NODE ERRORS were resolved. The coverage was CLEANED and BUILT with POLYGON topology.</procdesc>
+<procdate>20021125</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>(MEGIS) Maine Office of Geographic Information Systems</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station 174</address>
+<city>Augusta</city>
+<state>ME</state>
+<postal>04333-0174</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207 624-7700</cntvoice>
+<cntfax>207 287-3842</cntfax>
+<hours>Monday through Friday 0800 - 1700 EST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>The item CNTYCODENUM was added to provide a text type and numeric type field for the county code.</procdesc>
+<procdate>20050506</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>(MEGIS) Maine Office of Geographic Information Systems</cntorg>
+<cntper>GIS Coordinator</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station 174</address>
+<city>Augusta</city>
+<state>ME</state>
+<postal>04333-0174</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207 624-7700</cntvoice>
+<cntfax>207 287-3842</cntfax>
+<hours>Monday through Friday 0800 - 1700 EST</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>The County boundary for Franklin and Somerset was modified between the towns of Starks and Industry. Digital parcel data, confirmation from town officials and official E911 road data all placed the boundary east of it's previous location.</procdesc>
+<procdate>20140124</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of Geographic Information Systems</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #145</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04333</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntemail>OIT.Customer-Support@maine.gov</cntemail>
+<hours>9 am to 5 pm EST</hours>
+<cntinst>Monday through Friday</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>6907</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>GISVIEW.MEGIS.Cnty24P</enttypl>
+<enttypd>polygon feature class</enttypd>
+<enttypds>Environmental Systems Research Institute, Inc. (ESRI)</enttypds>
+</enttyp>
+<attr>
+<attrlabl>CNTYCODE</attrlabl>
+<attrdef>Code corresponds to the federal (FIPS) code established for each of Maine's sixteen counties. The county code is also represented in the first two digits of Maine's official "Standard Geographic Code (geocode) a five digit code that uniquely identifies minor civil divisions and indian reservations in the Maine</attrdef>
+<attrdefs>MEGIS</attrdefs>
+</attr>
+<attr>
+<attrlabl>Shape.STLength()</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape.STArea()</attrlabl>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>Official Maine county name</attrdef>
+<attrdefs>MEGIS</attrdefs>
+</attr>
+<attr>
+<attrlabl>ISLAND</attrlabl>
+<attrdef>identifies polygons that represent islands</attrdef>
+<attrdefs>MEGIS</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>polygon represents coastal, lake or river mouth island</edomvd>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>non-island polygon</edomvd>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>LAND</attrlabl>
+<attrdef>identifies land and non-land areas</attrdef>
+<attrdefs>MEGIS</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Polygon represents land area</edomvd>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>GlobalID</attrlabl>
+<attrdef>A field of type UUID (Universal Unique Identifier) in which values are automatically assigned by the geodatabase when a row is created. The GlobalID field is necessary for maintaining object uniqueness across replicas. All feature classes and tables participating in one-way or two-way replication must contain the GlobalID field. This field is not editable and is automatically populated when it is added for existing data.</attrdef>
+<attrdefs>http://support.esri.com/en/knowledgebase/GISDictionary/term/GlobalID</attrdefs>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>TAG</attrlabl>
+<attrdef>item used to select a single feature for labeling purposes</attrdef>
+<attrdefs>MEGIS</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Do not use point for labeling</edomvd>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Use point for labeling</edomvd>
+						<edomvds>MEGIS</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>CNTY24 contains state and county boundaries for Maine. The coverage has polygon topology and was created in Arc/Info from METWP24 by a select on arcs coded TYPE = state, county, and coastline. Polygons in the coverage are labeled with COUNTY, CNTYCODE, TAG, LAND, ISLAND. Arcs in the coverage are coded for TYPE and LAND. Please note recommended feature level metadata items FMSRC, FMSRCORG, FMSRCDAT, FMPROCSS, FMUPDORG, FMUPDDAT have been added to the arc coding of this coverage to replace the item SOURCE. These items are intended for use in providing specific information about the source of changes to the location of arc features in the coverage and contain codes that cross reference the elements Source Citation Abbreviation, Source Publication Date, Process Step, Process Contact and Process Date in Federal Geographic Data Committee(FGDC) compliant metadata for the coverage. For more information related to feature level metadata see http://www.maine.gov/megis/policies/</eaover>
+<eadetcit>The ArcView shapefile and ArcGIS geodatabase formats, commonly used for Maine GIS data, carry default identifiers and attributes that are software generated and/or important for internal recordkeeping. These are listed here to avoid repetition for every layer, and may not be repeated in the attribute descriptions and definitions of each layer. Common software generated identifiers and attributes in Maine GIS data include: FID (feature identifier), Shape (feature geometry), OBJECTID and SHAPE_lengt. In addition, most GIS formats will carry fields for PERIMETER, AREA and/or LENGTH according to feature geometry. These fields are typically available by default, with the units based on coordinate system or projection units of GIS data. Most GIS software packages also provide a means to calculate these values. It is important to test any columns containing PERIMETER, AREA or LENGTH values before using them for analysis purposes. These important values can be carried from format to format and become out-dated. Verify that the values are correct. Also, in your GIS software, please view the properties of data layers for the map units used to calculate these fields, and for the units set for display purposes.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of Geographic Information Systems</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #145</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04333</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntemail>OIT.Customer-Support@maine.gov</cntemail>
+<hours>9 am to 5 pm EST</hours>
+<cntinst>Monday through Friday</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>public access to GIS data</resdesc>
+<distliab>Users must assume responsibility to determine the usability of this data for their purposes. Although these data have been processed successfully on a computer system at the Maine Office of Geographic Information Systems, no warranty expressed or implied is made by MEGIS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. Neither the Maine Office of Geographic Information Systems, nor any of its contributors, is liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI Shapefile</formname>
+<formvern>ARC Version 10.x</formvern>
+<formspec>ArcGIS Shapefile Format</formspec>
+<formcont>MEGIS has all vector layers in the Maine GIS Internet Data Catalog available in ESRI's ArcGIS shapefile format. A shapefile is a simple non-topological format that stores the geometry and attribute information for a set of geographic features as a set of vector (point, line, polygon) coordinates. Shapefiles draw quickly and directly in ArcView, ArcGIS, ArcExplorer. Shapefiles are a compatible data type for many other types of GIS software. Three files are fundamental to each shapefile: .shp stores the feature geometry (shape and location information); .shx stores the index of the feature geometry; .dbf a dBASE (TM) file stores the attribute information for the features. Other index files may be created to help speed analysis and query: these file formats are .sbn .sbx .ain .aix .fbn and .fbx. In addition you may find projection .prj, and metadata .xml, files associated with shapefiles.\</formcont>
+<filedec>Data available from this website is in .zip compressed format. WinZip is a Windows based, PKZip-compatible compression utility. You will need a program like this to extract the data.</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://megis.maine.gov/catalog/</networkr>
+</networka>
+</computer>
+<accinstr>public access to GIS data</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>Data may be downloaded from Maine GIS Internet Data Catalog at no charge.</fees>
+<turnarnd>Data is available for immediate download from the Maine GIS Internet Data Catalog.</turnarnd>
+</stdorder>
+<availabl>
+<timeinfo>
+<rngdates>
+<begdate>20021125</begdate>
+</rngdates>
+</timeinfo>
+</availabl>
+</distinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of Geographic Information Systems</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #145</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04333</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntemail>OIT.Customer-Support@maine.gov</cntemail>
+<hours>9 am to 5 pm EST</hours>
+<cntinst>Monday through Friday</cntinst>
+</cntinfo>
+</distrib>
+<distliab>Users must assume responsibility to determine the usability of this data for their purposes. Although these data have been processed successfully on a computer system at the Maine Office of Geographic Information Systems, no warranty expressed or implied is made by MEGIS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. Neither the Maine Office of Geographic Information Systems, nor any of its contributors, is liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets.</distliab>
+<stdorder>
+<fees>Access is available through Maine's wide area network; WAN users may contact the Maine Office of Information Technology, Maine Office of Geographic Information Systems (MEGIS) for a login.</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20171013</metd>
+<metrd>20170707</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Maine Office of Geographic Information Systems</cntorg>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>State House Station #145</address>
+<city>Augusta</city>
+<state>Maine</state>
+<postal>04333</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>207-624-7700</cntvoice>
+<cntemail>OIT.Customer-Support@maine.gov</cntemail>
+<hours>9 am to 5 pm EST</hours>
+<cntinst>Monday through Friday</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metuc>This dataset is for planning purposes only and should not be used for conveyance of land. Users must assume responsibility in determining the usability of this data for their purposes. Digital maps retain the accuracy of their source materials. The best use of data mapped at scales of 1:500,000 and 1:250,000 is in statewide planning and studies; at 1:100,000 in regional planning and studies; at 1:62,500 and 1:24,000 in detailed studies and local planning; and at 1:12,000 and 1:5,000 or larger scales in parcel level studies and detailed local planning. In the use of Maine GIS data, please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the correct copy of both data and metadata from the Maine GIS Data Catalog. Updates, corrections, and feedback, incorporated in the Maine GIS database are made in accordance with "Data Standards for Maine Geographic Information Systems", 2002, and coordinated by MEGIS.</metuc>
+</metainfo>
+</metadata>

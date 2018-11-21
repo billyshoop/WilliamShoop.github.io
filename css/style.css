@@ -1,0 +1,130 @@
+
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #31a354;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #a1d99b;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #a1d99b;
+  color: #242424;
+}
+
+.jumbotron {
+  background-image: url("../img/jumbo_banner.jpg");
+  text-align:left;
+  color: #fff;
+  padding: 2%;
+}
+
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #31a354;
+  border-width: 2.25px;
+  width: 95%;
+
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #a1d99b;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+#portfolio-image {
+  max-height: 350px;
+}
+
+#portfolio-image2 {
+  max-height: 350px;
+}
+#portfolio-image3 {
+  max-height: 350px;
+}
+#portfolio-image4 {
+  max-height: 350px;
+}
+
+/*#f7f1fa;*/
+
+body {
+  padding-top: 50px;
+  font-family: 'Georgia', serif;
+  background-color: #e5f5e0;
+  color: #242424;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+#resume {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #a1d99b;
+  border-width: 3px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: #31a354;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a:hover {
+  color: #a1d99b;
+}
+
+#profile-pic {
+  border:3px solid #31a354;
+  border-radius: 50%;
+  max-height: 300px;
+}
